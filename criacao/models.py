@@ -6,7 +6,6 @@ try:
     from PIL import Image
 except ImportError:
     import Image
-
 from django.contrib.auth.models import User
 from django.core.mail import send_mail
 from django.db import models
@@ -21,6 +20,7 @@ from gerenciamento.models import (
 	Funcionario,
 	Peca
 )
+
 
 class Link(models.Model):
 	name = models.CharField(_('Name'), max_length=32, help_text=_('Link name'))

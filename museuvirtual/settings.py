@@ -33,8 +33,8 @@ if USE_POSTGRESQL:
         'default': {
             'ENGINE':'django.db.backends.postgresql_psycopg2',
             'NAME': 'tronco_db',
-            'USER': 'tronco_admin',
-            'PASSWORD': 'p@$$:=dr@w!ng=tronco',
+            'USER': 'paula',
+            'PASSWORD': '123456',
             'HOST': 'localhost',
             'PORT': '',
         }
