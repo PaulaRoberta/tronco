@@ -528,7 +528,7 @@ class Video(models.Model):
 	class Meta:
 		verbose_name = "Vídeo"
 		verbose_name_plural = "Vídeos"
-
+	
 def validar_formato_documento(value):
 	if not (value.name.lower().endswith('.pdf')):
 		raise ValidationError(u'Formato não suportado. Por favor, envie um arquivo no formato .pdf.')
